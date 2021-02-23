@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="mobile.css">
+    <script src="app.js"></script>
+    <title>Responsive Exercise</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="container">
+                <h4 class="logo"><a href="index.html">Responsive Layout</a></h4>
+                <div id="sidemenu" class="sidemenu-wrapper">
+                    <div class="cross" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </div>
+            <ul class="navbar-links">
+                <li><a class="current" href="">Home</a></li>
+                <li><a href="">Generic</a></li>
+                <li><a href="">Elements</a></li>
+            </ul>
+            </div>
+            </div>
+            
+            <div class="burger" onclick = "openMenu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <hr>
+        <div class="welcome-page">
+            <div class="container">
+                <div class="showcase-content">
+                <h1>Welcome</h1>
+                <div class="left">
+                    <i class="fas fa-car-alt"></i>
+                    <h4>Travel</h4>
+                    <p>Choose a ride</p>
+                </div>
+                <div class="right">
+                    <i class="fas fa-camera"></i>
+                    <h4>Gallery</h4>
+                    <p>Choose photos</p>
+                </div>
+                <div class="clr"></div>
+                <button class="btn-started" type="button">GET STARTED</button> 
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="flex-container">
+            <div class="info-left">
+                <img src="./img/s.jpg" alt="">
+                <h3>Lorem ipsum <br>dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita aliquid in accusantium sed tempore voluptate </p>
+                <button class="btn-started" type="button">LEARN MORE</button>
+            </div>
+            <div class="info-right">
+                <img src="./img/camera.jpg" alt="">
+                <h3>Lorem ipsum<br> dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita aliquid in accusantium sed tempore voluptate</p>
+                <button class="btn-started" type="button">LEARN MORE</button>
+            </div>
+        </div>
+        </div>
+
+        
+
+
+
+</body>
+</html>

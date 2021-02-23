@@ -1,0 +1,124 @@
+ .sidemenu-wrapper {
+    width: 50%;
+    position:absolute;
+    right:0px;
+    height:100vh;
+    background-color:#57c789 ;
+    top:0px;
+    align-items: center;
+    z-index:2;
+    transform: translateX(100%);
+    transition: transform 1s ease-in;
+ }
+ .navbar-links {
+    margin: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-nav ul{
+    float: none;
+
+}
+.cross{
+    display:block;
+    float:right;
+    z-index:100;
+    color:white;
+    position: relative;
+    top:3%;
+    right:10%;
+}
+.sidemenu-wrapper.open{
+    transform: translateX(0%);
+}
+/* .navbar-links.open ul{
+    transform: translateX(0%);
+} */
+.main-nav .container{
+    width:100%;
+}
+.main-nav h4{
+    float:left;
+    padding-left:10px;
+    font-size:13px;
+}
+body{
+    overflow-x: hidden;
+}
+.burger{
+    display:block;
+    float:right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.burger div{
+    width: 23px;
+    height: 2px;
+    background-color: #fff;
+    margin:4px;
+}
+.flex-container {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin:auto;
+}
+.left{
+    border: none;
+    float:none;
+    padding-right:0px;
+    width:100%;
+    line-height: 1rem;
+}
+.right{
+    margin-top:15px;
+    margin-bottom:20px;
+    float: none;
+    width: 100%;
+    line-height: 1rem;
+}
+h1{
+    margin-bottom:15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+.showcase-content{
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+}
+header{
+    height: 100%;
+}
+.btn-started{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.info-left img ,.info-right img{
+    text-align: center;
+    width:40%;
+
+}
+.info-left{
+    width: 100%;
+    text-align: center;
+    margin:40px 0px;
+}
+.info-right{
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    margin:10px 0px;
+}
+.flex-container p{
+    font-size: 0.7rem;
+}
+
+.showcase-content h4{
+    font-size: 12px;
+}
+.main-nav h4{
+    padding:none;
+}
